@@ -3,6 +3,7 @@
 - contact person: delphine.ang@queensu.ca
 - funded by TFRI PPG 2024-2029, Sinclair Graduate Scholars Award 2026-2027 (D.A.) and Sinclair Summer Studentship 2026 (Y.G.)
 - [SCRI Retreat Abstract 12 July 2026.pdf](https://github.com/user-attachments/files/30965052/SCRI.Retreat.Abstract.12.July.2026.pdf)
+- analysis conducted in a custom R 4.5.3 container on Narval Cluster HPC - Alliance Canada, 128GB RAM and 8 cores
 
 <img width="11200" height="7200" alt="updateSCRIpostergreen_8aug-1" src="https://github.com/user-attachments/assets/18485d22-3a63-4958-b146-ff11badba365" />
 
