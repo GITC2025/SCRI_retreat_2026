@@ -542,6 +542,50 @@ per-cluster technical qc summary (resolution 0.5):
 <img width="3300" height="2700" alt="image" src="https://github.com/user-attachments/assets/1b16706b-39e6-47a3-88f3-8c3d78c4ed38" /> \
 <img width="1500" height="700" alt="dataset2_Res0 5_Cluster9_direct_multivariate_comparison_27July_2118" src="https://github.com/user-attachments/assets/d2b42c80-0d4d-4b9f-9623-9f28474d11c8" />
 
+# triad correlation update 4 sep 2026
+- though the corescence 39 mainly contains up markers in senescence, there are a few markers that are down/mixed in senescence
+- we split into subpanels
+
+```
+saved gmt file to: /lustre07/scratch/delphine/OUTPUT_BLCA_atlas_5_21aug2026/EGEAD1186_Yoshihara_2026_spatial/corescence_39.gmt
+
+gmt content:
+CORESCENCE_39   Corescence_39_senescence_gene_panel     IL6     IGFBP3  EGFR    SERPINE1        IGFBP1  IGFBP7  FAS     FGF2    VEGFA   CDKN1A  CDKN2A  STAT1   TNFRSF10C      PARP1    CXCL8   IL1A    CXCL1   ICAM1   CCL2    IGFBP2  AXL     WNT2    HMGB2   HMGB1   IGFBP5  GDF15   MDM2    CDKN2B  CCNA2   CDK1    HELLS   FOXM1   BUB1B   LMNB1   BRCA1  IGF1     JUN     MIF     TGFB1
+
+genes_up <- c(
+"AXL", "CCL2", "CDKN1A", "CDKN2A", "CDKN2B", "CXCL1", "CXCL8", "FAS", 
+"FGF2", "GDF15", "ICAM1", "IGFBP1", "IGFBP2", "IGFBP3", "IGFBP5", "IGFBP7", 
+"IL1A", "IL6", "MDM2", "MIF", "SERPINE1", "STAT1", "TGFB1", "TNFRSF10C", 
+"VEGFA", "WNT2"
+)
+
+genes_down <- c(
+"BRCA1", "BUB1B", "CCNA2", "CDK1", "FOXM1", "HELLS", "HMGB2", "IGF1", 
+"LMNB1", "PARP1"
+)
+
+genes_mixed <- c(
+"EGFR", "HMGB1", "JUN"
+)
+```
+
+- then rerun the triad correlations on corescence up only
+- here we see that classic senescence trend of decreasing prolif as senescence increases
+- nonetheless, cluster 9 is still significantly more proliferative compared to other clusters
+- cluster 9 is not the most senescent cluster overall 
+
+<img width="3300" height="2700" alt="corescence_up_umap_gsea_harmony_res_0 5_04Sep_150636" src="https://github.com/user-attachments/assets/b276847f-8e1d-4ea9-a162-7103be888e2d" /> \
+<img width="1500" height="700" alt="dataset2_Res0 5_Cluster9_Corescence_Up_multivariate_comparison_04September_1517" src="https://github.com/user-attachments/assets/00369a13-c63d-46f7-ad58-6816650ff43e" />
+
+- the highest plasticity region is in the sen-prolif zone (upper right), though this is an extrapolated zone as no cell points exist there
+
+# triad correlation Gavish MP19 epithelial senescence
+- run a similar correlation with GAVISH_3CA_MALIGNANT_METAPROGRAM_19_EPITHELIAL_SENESCENCE
+- 50 genes up in epithelial senescence
+- similar trend as corescence up, stronger magnitude for cluster 9
+
+<img width="3300" height="2700" alt="epi_senescence_umap_gsea_harmony_res_0 5_04Sep_144542" src="https://github.com/user-attachments/assets/60b30c9c-a505-4ab7-9afe-76d51ec0a350" />
+<img width="1500" height="700" alt="dataset2_Res0 5_Cluster9_Gavish_Epi_Senescence_multivariate_comparison_04September_1517" src="https://github.com/user-attachments/assets/8a997b0b-515d-4237-a315-d1fa0819602b" />
 
 # findallmarkers 
 - findallmarkers wilcoxon and ROC at Leiden 0.5 for top markers per cluster
