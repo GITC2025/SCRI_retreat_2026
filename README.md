@@ -1,4 +1,4 @@
-# SCRI_retreat_2026
+<img width="3300" height="2700" alt="corescence_up_umap_gsea_harmony_res_0 5_04Sep_150636" src="https://github.com/user-attachments/assets/bb6403cf-d7d5-4922-b5c7-dc1e7146feb9" /># SCRI_retreat_2026
 - extension of SCRI Retreat 2026 poster - static version (11 Aug 2026)
 - contact person: delphine.ang@queensu.ca
 - funded by TFRI PPG 2024-2029, Sinclair Graduate Scholars Award 2026-2027 (D.A.) and Sinclair Summer Studentship 2026 (Y.G.)
@@ -574,8 +574,8 @@ genes_mixed <- c(
 - nonetheless, cluster 9 is still significantly more proliferative compared to other clusters
 - cluster 9 is not the most senescent cluster overall 
 
-<img width="3300" height="2700" alt="corescence_up_umap_gsea_harmony_res_0 5_04Sep_150636" src="https://github.com/user-attachments/assets/b276847f-8e1d-4ea9-a162-7103be888e2d" /> \
-<img width="1500" height="700" alt="dataset2_Res0 5_Cluster9_Corescence_Up_multivariate_comparison_04September_1517" src="https://github.com/user-attachments/assets/00369a13-c63d-46f7-ad58-6816650ff43e" />
+<img width="3300" height="2700" alt="corescence_up_umap_gsea_harmony_res_0 5_04Sep_150636" src="https://github.com/user-attachments/assets/c9e6e04b-bba4-4698-b121-75a217f56235" />
+<img width="1500" height="700" alt="dataset2_Res0 5_Cluster9_Corescence_Up_multivariate_comparison_04September_1517" src="https://github.com/user-attachments/assets/7f40d29b-62e1-4123-96e7-8756eb54b8aa" />
 
 - the highest plasticity region is in the sen-prolif zone (upper right), though this is an extrapolated zone as no cell points exist there
 
@@ -584,8 +584,9 @@ genes_mixed <- c(
 - 50 genes up in epithelial senescence
 - similar trend as corescence up, stronger magnitude for cluster 9
 
-<img width="3300" height="2700" alt="epi_senescence_umap_gsea_harmony_res_0 5_04Sep_144542" src="https://github.com/user-attachments/assets/60b30c9c-a505-4ab7-9afe-76d51ec0a350" />
-<img width="1500" height="700" alt="dataset2_Res0 5_Cluster9_Gavish_Epi_Senescence_multivariate_comparison_04September_1517" src="https://github.com/user-attachments/assets/8a997b0b-515d-4237-a315-d1fa0819602b" />
+<img width="3300" height="2700" alt="epi_senescence_umap_gsea_harmony_res_0 5_04Sep_144542" src="https://github.com/user-attachments/assets/00b8339a-ab7f-4876-8d4c-59681cf40bcf" />
+<img width="1500" height="700" alt="dataset2_Res0 5_Cluster9_Gavish_Epi_Senescence_multivariate_comparison_04September_1517" src="https://github.com/user-attachments/assets/c5620dd2-2c3b-469f-ab0c-1a6fb1d09fc9" />
+
 
 # findallmarkers 
 - findallmarkers wilcoxon and ROC at Leiden 0.5 for top markers per cluster
